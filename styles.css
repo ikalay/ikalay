@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.principal{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto' sans-serif;
+    display: block;   
+}
+
+#titulo{
+    background-color:#271b63;
+    color: rgba(245, 246, 248, 0.897);
+    text-align: center;
+}
+
+#blog_terrenos{
+    padding-bottom: 720px;
+}
+
+.nav {
+    list-style-type: none;
+    margin:0px;
+    padding-left: 820px;
+    overflow: hidden;
+    background: linear-gradient(138deg, #0221363b, #0081dd);   
+}
+
+footer{
+    background-color: #c9d2d3;
+    color:rgb(4, 44, 44);
+	width: 100%;
+	height: 6vh;	
+	display: flex;
+	justify-content: center;
+
+}
+footer p{
+    padding-top: 10px;
+    justify-content: center;
+}
+
+/* Contenedores del main */
+.contenedormapa{
+    justify-content: center;
+}
+
+.contenedorlotes{
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding: 10px;
+    margin-right: 10px;
+    float:left;
+    
+}
+
+/* Publicidad */
+aside a img {
+    width: 80%;
+    height: 30vh;
+    justify-content: center;
+}
